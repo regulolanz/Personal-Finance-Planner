@@ -17,20 +17,20 @@ This Python script helps users to visualize their savings and investments to mak
 
 2. Set up a `.env` file with the following variables:
 
-ALPACA_API_KEY=<your_alpaca_api_key>
-ALPACA_SECRET_KEY=<your_alpaca_secret_key>
+    * ALPACA_API_KEY=<your_alpaca_api_key>
+    * ALPACA_SECRET_KEY=<your_alpaca_secret_key>
 
 3. Update the following variables in the script with your current assets and investments:
 
-my_btc
-my_eth
-my_agg
-my_spy
-monthly_income
+    * my_btc
+    * my_eth
+    * my_agg
+    * my_spy
+    * monthly_income
 
 4. Run the script:
 
-python personal_finance_planner.py
+    * python personal_finance_planner.py
 
 5. The script will display the current value of your cryptocurrency and stock holdings, a pie chart showing the composition of your savings, and information about your emergency fund.
 
